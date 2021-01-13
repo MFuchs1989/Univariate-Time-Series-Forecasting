@@ -2,7 +2,7 @@
 # Univariate-Time-Series-Forecasting
 
 
-![main_image](images/main_image.png)
+![main_image](images/test.png)
 
 Most of the time we deal with cross-sectional data. Here, the data is collected at a specific point in time. On the other hand, time series data is a collection of observations obtained through repeated measurements over time. 
 
