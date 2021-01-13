@@ -2,7 +2,7 @@
 # Univariate-Time-Series-Forecasting
 
 
-![main_image](images/test.png)
+![main_image](images/main_image.png)
 
 Most of the time we deal with cross-sectional data. Here, the data is collected at a specific point in time. On the other hand, time series data is a collection of observations obtained through repeated measurements over time. 
 
@@ -13,11 +13,7 @@ Most of the time we deal with cross-sectional data. Here, the data is collected 
 3. [Folder Structure](#folder_structure)
 4. [Getting Started](#getting_started)
 5. [Overview of the ETL steps](#overview)
-    1. [Simple_Pipeline](#simple_pipeline)
-    2. [Pipeline_with_join](#pipeline_with_join)
-    3. [Pipeline_with_join2](#pipeline_with_join2)
-    4. [Pipeline_with_intermediate_storage](#pipeline_with_intermediate_storage)  
-6. [Link to the Publications](#link_publications)    
+6. [Link to the Publication](#link_publication)    
 7. [Authors](#authors)
 8. [Motivation](#motivation)
 
@@ -92,55 +88,42 @@ The created models are automatically saved in this directory when the script is 
 
 <a name="overview"></a>
 
-## Overview of the ETL steps
+## Overview of the Results
 
-In the following I show the individual steps that are used in the respective ETL variants:
+I used five different Neural Networks:
 
-<a name="simple_pipeline"></a>
++ LSTM
++ Bidirectional LSTM
++ GRU
++ Encoder Decoder LSTM
++ CNN
 
-### Simple_Pipeline
+I trained each of them in two different ways:
 
-![Overview_Simple_Pipeline](images/Overview_Simple_Pipeline.png)
++ Single Step Style
++ Horizon Style
 
---------------------------------------------------------------------------------------------------------
+Here is an overview of the results:
 
-<a name="pipeline_with_join"></a>
+![overview_results](images/overview_results.png)
 
-### Pipeline_with_join
 
-![Overview_Pipeline_with_join](images/Overview_Pipeline_with_join.png)
 
---------------------------------------------------------------------------------------------------------
-
-<a name="pipeline_with_join2"></a>
-
-### Pipeline_with_join2
-
-![Overview_Pipeline_with_join2](images/Overview_Pipeline_with_join2.png)
-
---------------------------------------------------------------------------------------------------------
-
-<a name="pipeline_with_intermediate_storage"></a>
-
-### Pipeline_with_intermediate_storage
-
-![Overview_Pipeline_with_intermediate_storage](images/Overview_Pipeline_with_intermediate_storage.png)
-
-Corresponding legend:
-
-![Legend](images/Legend.png)
  
 
-<a name="link_publications"></a>
+<a name="link_publication"></a>
 
-## Link to the Publications
+## Link to the Publication
 
-For each of the listed ETL variants I have written a separate post. In it I have explained my approach and usage again in detail.
+Here is the link to my blog post: [Time Series Analysis - Neural Networks for Forecasting Univariate Variables](https://michael-fuchs-python.netlify.app/2020/11/01/time-series-analysis-neural-networks-for-forecasting-univariate-variables/). In it I explained the exact difference of the methods used and described my procedure in detail.
 
-+ [Simple_Pipeline](https://michael-fuchs-python.netlify.app/2020/11/24/etl-simple-pipeline/)
-+ [Pipeline_with_join](https://michael-fuchs-python.netlify.app/2020/11/25/etl-pipeline-with-join/)
-+ [Pipeline_with_join2](https://michael-fuchs-python.netlify.app/2020/11/26/etl-pipeline-with-join2/)
-+ [Pipeline_with_intermediate_storage](https://michael-fuchs-python.netlify.app/2020/11/27/etl-pipeline-with-intermediate-storage/)
+If this repository/publication helped you, you are welcome to read other blog posts I wrote on the topic of time series analysis: 
+
++ [Regression Extension Techniques for Forecasting Multivariate Variables](https://michael-fuchs-python.netlify.app/2020/10/29/time-series-analysis-regression-extension-techniques-for-forecasting-multivariate-variables/)
++ [Regression Extension Techniques for Forecasting Univariate Variables](https://michael-fuchs-python.netlify.app/2020/10/27/time-series-analysis-regression-extension-techniques-for-forecasting-univariate-variables/)
++ [Smoothing Methods](https://michael-fuchs-python.netlify.app/2020/10/23/time-series-analysis-smoothing-methods/)
++ [Working with Dates and Times](https://michael-fuchs-python.netlify.app/2020/10/19/time-series-analysis-working-with-dates-and-times/)
+
 
 
 <a name="authors"></a>
