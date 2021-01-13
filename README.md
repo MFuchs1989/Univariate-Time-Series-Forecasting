@@ -12,7 +12,7 @@ Most of the time we deal with cross-sectional data. Here, the data is collected 
 2. [Software Requirements](#software_requirements)
 3. [Folder Structure](#folder_structure)
 4. [Getting Started](#getting_started)
-5. [Overview of the ETL steps](#overview)
+5. [Overview of the Results](#overview)
 6. [Link to the Publication](#link_publication)    
 7. [Authors](#authors)
 8. [Motivation](#motivation)
