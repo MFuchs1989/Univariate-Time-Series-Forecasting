@@ -67,7 +67,7 @@ C:.
         lstm_model_sss.h5
 ```
 
-Neben dem Jupyter Notebook und dem Dataframe habe ich eine Model-Datei erstellt.
+Besides the Jupyter notebook and the dataframe I created a model file.
 The created models are automatically saved in this directory when the script is executed.
 
 
@@ -107,7 +107,7 @@ Here is an overview of the results:
 
 ![overview_results](images/overview_results.png)
 
-
+The Long short-term memory model with a RMSE (root-mean-square error) of 533 is almost 60% better than the CNN model which is the worst of all. 
 
  
 
