@@ -1,10 +1,10 @@
 
-# ETL-Pipelines with Python
+# Univariate-Time-Series-Forecasting
 
 
-![etl_main_pic](images/pipelines.png)
+![main_image](images/main_image.png)
 
-A rule of thumb says that a data scientist spends 80% of his time on data preparation. The same amount of code is generated at this point. If you are working on a customer project that is only interested in the results, the notebook in which you are working, for example, is quickly overcrowded with syntax that only refers to the preparation of the data. For such a case it is a good idea to write an ETL-script. 
+Most of the time we deal with cross-sectional data. Here, the data is collected at a specific point in time. On the other hand, time series data is a collection of observations obtained through repeated measurements over time. 
 
 
 ## Table of Contents
@@ -28,7 +28,8 @@ A rule of thumb says that a data scientist spends 80% of his time on data prepar
 
 ## Introduction
 
-In this repository I have stored several variants of ETL pipelines. They serve as a template and can be extended as desired.
+In this repository I have deposited a Jupyter notebook which contains various neruonal networks for time series predictions. 
+With this script you can quickly and easily check which type of neural network fits best to the data.
 
 <a name="software_requirements"></a>
 
@@ -39,6 +40,9 @@ Required libraries:
 + Python 3.x
 + Numpy
 + Pandas
++ Matplotlib
++ Scikit-Learn
++ Tensorflow
 
 
 Please run ```pip install -r requirements.txt```
@@ -50,41 +54,25 @@ Please run ```pip install -r requirements.txt```
 ## Folder Structure
 
 ```
-├───1_Simple_Pipeline
-│   ├───data
-│   │   ├───input
-│   │   └───output
-│   └───notebooks
-├───2_Pipeline_with_join
-│   ├───data
-│   │   ├───input
-│   │   └───output
-│   └───notebooks
-├───3_Pipeline_with_join2
-│   ├───data
-│   │   ├───input
-│   │   └───output
-│   └───notebooks
-└───4_Pipeline_with_intermediate_storage
-    ├───data
-    │   ├───input
-    │   ├───input_modified
-    │   └───output
-    └───notebooks
+C:.
+│   Metro_Interstate_Traffic_Volume.csv
+│   Neural Networks for Univariate Variables.ipynb
+│
+└───model
+        bi_lstm_model_hs.h5
+        bi_lstm_model_sss.h5
+        cnn_model_hs.h5
+        cnn_model_sss.h5
+        ed_lstm_model_hs.h5
+        ed_lstm_model_sss.h5
+        gru_model_hs.h5
+        gru_model_sss.h5
+        lstm_model_hs.h5
+        lstm_model_sss.h5
 ```
 
-I have built 4 different ETL variants. 
-
-+ 1_Simple_Pipeline
-+ 2_Pipeline_with_join
-+ 3_Pipeline_with_join2
-+ 4_Pipeline_with_intermediate_storage
-
-The basic structure of all four variants is the same. 
-Each variant includes a data folder and a folder for the notebooks.
-Inside the data folder I create another folder called 'input'. This is where I put my original /raw files.
-The output-folder shown above are automatically created by the ETL.
-With the help of the notebooks I developed the .py file. The etl_pipeline.py files are always stored in the data-folder.
+Neben dem Jupyter Notebook und dem Dataframe habe ich eine Model-Datei erstellt.
+The created models are automatically saved in this directory when the script is executed.
 
 
 
@@ -94,12 +82,12 @@ With the help of the notebooks I developed the .py file. The etl_pipeline.py fil
 
 1. Make sure Python 3 is installed.
 2. Clone the repository and navigate to the respective project's root directory in the terminal
-3.  ETL execution
-    1. from jupyter notebook: The ETL file can be executed directly from a Jupyter notebook. A sample procedure can be found under notebooks/Test_Notebook.
-    2. from command line: Use a command line of your choice and navigate to the respective project's root directory. Run the following commands:
-        1. ```cd "path/to/root directory"```
-        2. ```python etl_pipeline.py"```
-
+3. Use a command line of your choice and navigate to the respective project's root directory. Run the following commands:
+    1. ```cd "path/to/root directory"```
+    2. ```jupyter notebook"```
+4. In the browser window that opens, select the Jupyter Notebook file.
+5. Select the parameters of the neural network as desired.
+6. Select *Cell* in the menu shown above and execute *Run All*.
 
 
 <a name="overview"></a>
