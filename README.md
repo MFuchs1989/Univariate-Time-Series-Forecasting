@@ -115,12 +115,12 @@ The Long short-term memory model with a RMSE (root-mean-square error) of 533 is 
 
 ## Link to the Publication
 
-Here is the link to my blog post: [Time Series Analysis - Neural Networks for Forecasting Univariate Variables](https://michael-fuchs-python.netlify.app/2020/11/01/time-series-analysis-neural-networks-for-forecasting-univariate-variables/). In it I explained the exact difference of the methods used and described my procedure in detail.
+Here is the link to my blog post: [Time Series Analysis - Neural Networks for Univariate Time Series](https://michael-fuchs-python.netlify.app/2020/11/01/time-series-analysis-neural-networks-for-forecasting-univariate-variables/). In it I explained the exact difference of the methods used and described my procedure in detail.
 
 If this repository/publication helped you, you are welcome to read other blog posts I wrote on the topic of time series analysis: 
 
-+ [Regression Extension Techniques for Forecasting Multivariate Variables](https://michael-fuchs-python.netlify.app/2020/10/29/time-series-analysis-regression-extension-techniques-for-forecasting-multivariate-variables/)
-+ [Regression Extension Techniques for Forecasting Univariate Variables](https://michael-fuchs-python.netlify.app/2020/10/27/time-series-analysis-regression-extension-techniques-for-forecasting-univariate-variables/)
++ [Regression Extension Techniques for Univariate Time Series](https://michael-fuchs-python.netlify.app/2020/10/29/time-series-analysis-regression-extension-techniques-for-forecasting-multivariate-variables/)
++ [Regression Extension Techniques for Multivariate Time Series](https://michael-fuchs-python.netlify.app/2020/10/27/time-series-analysis-regression-extension-techniques-for-forecasting-univariate-variables/)
 + [Smoothing Methods](https://michael-fuchs-python.netlify.app/2020/10/23/time-series-analysis-smoothing-methods/)
 + [Working with Dates and Times](https://michael-fuchs-python.netlify.app/2020/10/19/time-series-analysis-working-with-dates-and-times/)
 
