@@ -119,6 +119,8 @@ Here is the link to my blog post: [Time Series Analysis - Neural Networks for Un
 
 If this repository/publication helped you, you are welcome to read other blog posts I wrote on the topic of time series analysis: 
 
++ [XGBoost for Univariate Time Series](https://michael-fuchs-python.netlify.app/2020/11/10/time-series-analysis-xgboost-for-univariate-time-series/)
++ [Neural Networks with multiple predictors](https://michael-fuchs-python.netlify.app/2020/11/04/time-series-analysis-neural-networks-with-multiple-predictors/)
 + [Regression Extension Techniques for Univariate Time Series](https://michael-fuchs-python.netlify.app/2020/10/29/time-series-analysis-regression-extension-techniques-for-forecasting-multivariate-variables/)
 + [Regression Extension Techniques for Multivariate Time Series](https://michael-fuchs-python.netlify.app/2020/10/27/time-series-analysis-regression-extension-techniques-for-forecasting-univariate-variables/)
 + [Smoothing Methods](https://michael-fuchs-python.netlify.app/2020/10/23/time-series-analysis-smoothing-methods/)
