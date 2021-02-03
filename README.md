@@ -16,7 +16,7 @@ Most of the time we deal with cross-sectional data. Here, the data is collected 
 6. [Link to the Publication](#link_publication)    
 7. [Authors](#authors)
 8. [Motivation](#motivation)
-
+9. [References](#ref)
 
 
 
@@ -145,3 +145,21 @@ You are welcome to visit them:
 + [R Blog](https://michael-fuchs.netlify.app/)
 
 I also publish individual interesting sections from my publications in separate repositories to make their access even easier. 
+
+
+<a name="ref"></a>
+
+## References: 
+
+Christ, M., Braun, N., Neuffer, J., & Kempa-Liehr, A. W. (2018). Time series feature extraction on basis of scalable hypothesis tests (tsfresh–a python package). Neurocomputing, 307, 72-77.
+
+Faouzi, J., & Janati, H. (2020). pyts: A Python Package for Time Series Classification. Journal of Machine Learning Research, 21(46), 1-6.
+
+McKinney, W., Perktold, J., & Seabold, S. (2011). Time series analysis in Python with statsmodels. Jarrodmillman Com, 96-102.
+
+Pal, A., & Prakash, P. K. S. (2017). Practical Time Series Analysis: Master Time Series Data Processing, Visualization, and Modeling using Python. Packt Publishing Ltd.
+
+Roberts, W., Williams, G. P., Jackson, E., Nelson, E. J., & Ames, D. P. (2018). Hydrostats: A Python package for characterizing errors between observed and predicted time series. Hydrology, 5(4), 66.
+
+Vishwas, B. V., & Patel, A. Hands-on Time Series Analysis with Python.
+
