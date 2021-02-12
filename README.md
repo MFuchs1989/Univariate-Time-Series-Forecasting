@@ -151,6 +151,8 @@ I also publish individual interesting sections from my publications in separate 
 
 ## References: 
 
+The content of the entire Repository was created using the following sources:
+
 Vishwas, B. V., & Patel, A. (2020). Hands-on Time Series Analysis with Python. New York: Apress. DOI: 10.1007/978-1-4842-5992-4
 
 
